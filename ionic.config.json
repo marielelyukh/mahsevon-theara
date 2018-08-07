@@ -1,0 +1,14 @@
+{
+  "name": "mahsevonTehara",
+  "type": "ionic1",
+  "integrations": {
+    "cordova": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "app_id": ""
+}
