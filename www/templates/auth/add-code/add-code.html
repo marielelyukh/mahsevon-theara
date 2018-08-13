@@ -1,0 +1,23 @@
+<ion-view class="add-code">
+  <ion-content>
+    <auth-header></auth-header>
+    <div>
+      <h4>
+        Enter the sms code
+      </h4>
+    </div>
+    <div class="add-code_form">
+      <form name="vm.addCodeForm" novalidate>
+        <md-input-container class="md-block" flex>
+          <input placeholder="Code" ng-model="vm.data.code" type="number" id="code" name="code" aria-label="code"
+          >
+        </md-input-container>
+      </form>
+    </div>
+    <div class="add-phone_btn">
+      <button ui-sref="sign-up" class="m-20 button button-royal">
+        Continue
+      </button>
+    </div>
+  </ion-content>
+</ion-view>

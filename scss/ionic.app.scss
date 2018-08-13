@@ -20,4 +20,20 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
+@import 'www/templates/auth/sign-up/sign-up';
+@import 'www/templates/auth/add-code/add-code';
+@import 'www/templates/auth/login/login';
+@import 'www/templates/auth/add-phone/add-phone';
+@import 'www/templates/start-page/start-page';
+@import 'www/templates/auth/change-password/change-password';
+@import 'www/templates/comments/comments';
+@import 'www/templates/contact-us/contact-us';
+@import 'www/templates/home/home';
+@import 'www/templates/notification/notification';
+@import 'www/templates/side-menu/side-menu';
+@import 'www/templates/terms/terms';
+@import 'www/components/reset-password-popup/reset-password-popup';
+@import 'www/components/taking-pills-popup/taking-pills-popup';
+@import 'www/components/contact-us-popup/contact-us-popup';
+
 

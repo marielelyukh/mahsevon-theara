@@ -1,0 +1,90 @@
+<ion-view class="sign-up">
+  <ion-content>
+    <auth-header></auth-header>
+    <div class="sign-up_form">
+      <form name="vm.signUpForm" novalidate>
+
+        <div layout="row">
+          <md-input-container flex="50">
+            <input  placeholder="Last Name"
+                    id="last_name"
+                    name="last_name"
+                    aria-label="last_name"
+                    required
+                    ng-model="vm.data.last_name"
+                    type="text">
+          </md-input-container>
+
+          <md-input-container flex="50">
+            <input placeholder="First Name"
+                   required
+                   ng-model="vm.data.first_name"
+                   type="text" id="first_name"
+                   name="first_name"
+                   aria-label="first_name"
+            >
+          </md-input-container>
+        </div>
+        <div layout="row">
+          <md-input-container class="md-block" flex>
+            <input placeholder="Address"
+                   ng-model="vm.data.address"
+                   type="text" id="address"
+                   required
+                   name="address"
+                   aria-label="address"
+            >
+          </md-input-container>
+        </div>
+        <div layout="row">
+          <md-input-container class="md-block" flex>
+            <input placeholder="Email"
+                   ng-model="vm.data.email"
+                   type="email" id="email"
+                   required
+                   name="email"
+                   aria-label="email"
+            >
+          </md-input-container>
+        </div>
+        <div layout="row">
+          <md-input-container flex="50">
+            <input  placeholder="Repeat Password"
+                    id="repeat_password"
+                    name="repeat_password"
+                    aria-label="repeat_password"
+                    required
+                    ng-model="vm.data.repeat_password"
+                    type="text">
+          </md-input-container>
+
+          <md-input-container flex="50">
+            <input placeholder="Password"
+                   required
+                   ng-model="vm.data.password"
+                   type="text" id="password"
+                   name="password"
+                   aria-label="password"
+            >
+          </md-input-container>
+        </div>
+        <div >
+          <md-checkbox ng-model="vm.data.terms_agree" aria-label="Checkbox 1">
+            I confirm the:
+          </md-checkbox>
+        </div>
+        <div >
+          <md-checkbox ng-model="vm.data.interested_in" aria-label="Checkbox 1">
+            I am interested in receiving advertising materials:
+          </md-checkbox>
+        </div>
+        <div class="sign-up_btn">
+          <button ui-sref="sign-up" class="m-20 button button-royal">
+            Sign Up
+          </button>
+        </div>
+      </form>
+    </div>
+  </ion-content>
+</ion-view>
+

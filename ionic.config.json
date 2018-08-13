@@ -2,7 +2,8 @@
   "name": "mahsevonTehara",
   "type": "ionic1",
   "integrations": {
-    "cordova": {}
+    "cordova": {},
+    "gulp": {}
   },
   "watchPatterns": [
     "scss/**/*",

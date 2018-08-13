@@ -1,0 +1,49 @@
+<ion-view class="login-page">
+  <ion-content>
+    <auth-header></auth-header>
+    <div>
+      <h4>
+        Sign Up
+      </h4>
+    </div>
+    <div class="sign-up_form">
+      <form name="vm.loginForm" novalidate>
+        <md-input-container class="md-block" flex>
+          <md-icon md-font-icon="fa fa-at " aria-hidden="true"></md-icon>
+          <input placeholder="Email" ng-model="vm.data.email" type="email" id="email" name="email" aria-label="email"
+          >
+        </md-input-container>
+        <md-input-container class="md-block" flex>
+          <md-icon md-font-icon="fa fa-eye " aria-hidden="true"></md-icon>
+          <input ng-model="vm.data.password" type="password" placeholder="Пароль">
+
+        </md-input-container>
+      </form>
+    </div>
+    <div class="sign-up_forgor-password">
+      <h6>
+        Forgot password
+      </h6>
+    </div>
+    <div class="continue">
+      <button class="button button-royal">
+       Continue
+      </button>
+    </div>
+    <div  class="sign-up_forgor-password">
+      <h6>
+        Still not signed up? Click here
+      </h6>
+    </div>
+    <div ui-sref="sign-up" class="continue">
+      <button class="button button-outline button-royal">
+        Sign Up
+      </button>
+    </div>
+
+<h3></h3>
+
+
+  </ion-content>
+</ion-view>
+

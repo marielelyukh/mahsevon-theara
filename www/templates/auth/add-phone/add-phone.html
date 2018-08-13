@@ -1,0 +1,39 @@
+<ion-view class="add-phone">
+  <ion-content>
+    <auth-header></auth-header>
+    <div>
+      <h4>
+        Sign Up
+      </h4>
+    </div>
+    <div>
+      <h5>
+        Please enter your phone number
+      </h5>
+    </div>
+    <div class="add-phone_form">
+      <form name="vm.addPhoneForm" novalidate>
+        <md-input-container class="md-block" flex>
+          <md-icon md-font-icon="fa fa-phone" aria-hidden="true"></md-icon>
+          <input placeholder="Phone" ng-model="vm.data.phone" type="number" id="phone" name="phone" aria-label="phone"
+          >
+        </md-input-container>
+      </form>
+    </div>
+    <div class="add-phone_btn">
+      <button ui-sref="add-code" class="m-20 button button-royal">
+        Continue
+      </button>
+    </div>
+    <div class="sign-up_forgor-password">
+      <h6>
+        Signed up user? Click here
+      </h6>
+    </div>
+    <div ui-sref="login" class="continue">
+      <button class="button button-outline button-royal">
+       Login
+      </button>
+    </div>
+  </ion-content>
+</ion-view>
